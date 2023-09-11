@@ -54,3 +54,25 @@ int main() {
 
     return 0;
 }
+/*
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+bool nextPermutation(string& word) {
+    if (next_permutation(word.begin(), word.end())) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+int main() {
+    int n;
+    cin >> n;
+
+    while (n--) {
+        string str;
+        cin >> str
+
+*/
